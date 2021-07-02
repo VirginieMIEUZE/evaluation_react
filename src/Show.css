@@ -1,0 +1,70 @@
+.card {
+    width: 45%;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+
+    color: white;
+    background-color: black;
+
+    transition: .5s ease-in-out;
+    opacity: 0.6;
+}
+
+.card:hover {
+    transition: .5s ease-in-out;
+    opacity: 1;
+}
+
+h1 {
+    color:rgb(189, 0, 0);
+}
+
+.info {
+    font-size: 1.2em;
+}
+
+.badge {
+    color: rgb(189, 0, 0);
+    border: 1px solid rgb(189, 0, 0);
+    font-size: 1em;
+    margin-right : 0.5em;
+    transition: .3s ease-in-out;
+}
+
+.badge:hover {
+    color: white;
+    background-color: rgb(189, 0, 0);
+    transition: .3s ease-in-out;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+/** FAVORIS **/
+
+.fav {
+    color: rgb(189, 0, 0);
+    cursor: pointer;
+}
+
+.no-fav {
+    color: white;
+    cursor: pointer;
+}
+
+/** NAV **/
+
+.form-control {
+    background-color: rgb(39, 39, 39);
+    border: 1px solid rgb(189, 0, 0);
+    color: rgb(88, 88, 88);
+}
+
+.form-control:focus {
+    background-color: rgb(54, 54, 54);
+    border: 1px solid rgb(189, 0, 0);
+    box-shadow: 0px 0px 10px rgb(189, 0, 0);
+    color: white;
+}
