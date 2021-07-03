@@ -1,7 +1,21 @@
 import React from 'react'
 import FavBtn from './FavBtn';
+import { arrayOf, object, shape, string } from 'prop-types'
 
 import './Show.css'
+
+Show.propTypes = {
+    show: shape({
+      title: string,
+      description: string,
+      creation: string,
+      seasons: string,
+      episodes: string,
+      genres: arrayOf(string),
+      images: object,
+      user: object,
+    }).isRequired,
+  }
 
 export default function Show(props) {
     const { show } = props;
